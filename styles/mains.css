@@ -70,7 +70,12 @@ header nav a:hover{
     font-size: 1.2rem;
 }
 
-.botoes .botao{
+.botoes {
+   display: flex;
+   justify-content: center;
+}
+
+.botao{
     border-radius: 5px;
     padding: 10px;
     margin-left: 15px;
@@ -107,4 +112,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
 }
